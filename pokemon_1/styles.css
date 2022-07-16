@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #39393a;
+}
+
+.busqueda__container{
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: 500px;
+    background-color: #6d9dc5;
+}
+
+label{
+    margin: auto;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fefefe;
+}
+
+input{
+    margin: 20px auto;
+    display: block;
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    border:none;
+    font-size: 1.5rem;
+
+}
+
+input:focus{
+    outline: 1px solid #119da4;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #119da4;
+    border: none;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.card{
+    margin: 20px auto;
+    width: 500px;
+    height: 600px;
+    background: linear-gradient(180deg,#6d9dc5 10%, #fefefe 70%);
+    border-radius: 20px;
+}
+
+h1{
+    color: #fefefe;
+    border-color: #39393a;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 20px;
+}
+
+figure{
+    margin: auto;
+    width: 80%;
+    height: 80%;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
